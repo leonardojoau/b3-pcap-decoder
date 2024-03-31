@@ -1,0 +1,9 @@
+Simple decoder to extract information
+from the pcap file from the B3 exchange.
+
+Build and run steps:
+mkdir bin
+cd bin
+cmake ../src
+cmake --build .
+./decoder ../data/your_pcap_file.pcap
