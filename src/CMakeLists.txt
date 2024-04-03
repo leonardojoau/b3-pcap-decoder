@@ -6,5 +6,6 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_executable(decoder decoder.cpp)
+add_executable(snapshot_recovery snapshot_recovery.cc)
 
-target_link_libraries(decoder pcap)
+target_link_libraries(snapshot_recovery pcap)
